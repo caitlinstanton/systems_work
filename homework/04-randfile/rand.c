@@ -64,7 +64,7 @@ int main() {
   }
 
   printf("Values in buff[], and comparison between values in buff[] and nums[]:\n");
-  printf("If the values in buff[] and nums[] are equal, then test will equal 1/n");
+  printf("If the values in buff[] and nums[] are equal, then test will equal 1\n");
   for (i = 0; i < 10; i++){
     printf("Value %i = %12d\n",i,buff[i]);
     printf("Comparison -> %d\n",buff[i] == nums[i]);
