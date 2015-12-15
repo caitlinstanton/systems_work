@@ -1,0 +1,5 @@
+  PID TTY          TIME CMD
+12872 pts/30   00:00:00 bash
+14994 pts/30   00:00:00 make
+15000 pts/30   00:00:00 a.out
+15003 pts/30   00:00:00 ps

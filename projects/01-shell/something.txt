@@ -1,0 +1,7 @@
+a.out
+a.txt
+b.txt
+design_doc.txt
+main.c
+makefile
+something.txt

@@ -1,0 +1,8 @@
+dillon.zhang tty5         2015-11-30 15:48
+guest-N3bvQC :0           2015-11-30 16:05 (:0)
+rong.yu  pts/28       2015-12-02 18:17 (cpe-74-73-26-170.nyc.res.rr.com)
+jerry.lei pts/27       2015-12-02 17:25 (207-237-83-123.c3-0.nyw-ubr1.nyr-nyw.ny.cable.rcn.com)
+jerry.lei pts/29       2015-12-02 17:03 (207-237-83-123.c3-0.nyw-ubr1.nyr-nyw.ny.cable.rcn.com)
+caitlin.stanton pts/30       2015-12-02 17:41 (pool-108-6-171-174.nycmny.fios.verizon.net)
+caitlin.stanton pts/31       2015-12-02 18:38 (pool-108-6-171-174.nycmny.fios.verizon.net)
+margaret.burkart pts/32       2015-12-02 18:38 (user-387g4ku.cable.mindspring.com)

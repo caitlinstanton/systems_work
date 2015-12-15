@@ -1,0 +1,63 @@
+MCR Bash
+by Rodda John, Michaela Papallo, and Caitlin Stanton
+Period 4
+
+1. Features
+	Can fork and execute commands, including cd and exit
+	Can perform redirection using < and > and all of their variations
+	Can run multiple commands separated by ;
+	Can handle one pipe per command
+
+2. Attempted Features
+   	Tab completion!
+	Colors as well as custom prompts -- didn't have enough time to complete
+
+3. Bugs/Things to Note
+	Needs spaces around symbols such as < 
+	No spaces around ;
+	No tabs
+	Ex:
+	   'ls ' will not work
+	   but 'ls' will work
+	   'ls ; cd ..' will not work
+	   but 'ls;cd ..' will work
+	only 1 pipe works :( -- ie you cannot string pipes together
+
+4. Function Headers
+   	/* 
+  	   contains	
+  	   Find the index of a string in an array of strings
+ 	   Parameters: char **command_array, int length, char *c = thing  to find in command_array
+  	   Returns:    index of c if found, 0 if not found
+	*/   
+	int contains(char **command_array, int length, char *c);
+
+	/* 
+  	   file_redirection_parse
+  	   Goes through the possible redirection symbols
+  	   Performs the necessary file redirection
+   	   Parameters: char **command_array, int i
+   	   Returns: void
+	*/
+	void file_redirection_parse(char **command_array, int i);
+
+	/* 
+   	   parse_command_helper
+   	   Forks off a child process
+   	   Creates an array from the user input (command and its args)
+   	   If redirection is necessary, calls file_redirection_parse
+   	   The child process runs the command using execvp
+   	   Parameters:char *command = user input
+   	   Returns: void
+   	*/
+	void parse_command_helper(char *command);
+
+	/* 
+  	    parse_command
+   	    Handles special cases where user input is 'exit'
+   	    Or user input is 'cd'
+   	    Else calls parse_command_helper
+   	    Parameters: char *command = the user input
+   	    Returns: void
+	*/
+	void parse_command(char *command);
